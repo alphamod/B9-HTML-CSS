@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,700&display=swap');
-
+:root{
+    --red-color: #88232b;
+    --heading-position-bottom: 14em;
+}
 body{
     margin: 0;
     padding: 0;
-    padding-left: 15em;
-    padding-right: 15em;
+    padding-left: 13.5em;
+    padding-right: 13.5em;
     font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+.container{
+    background-color: #ffffff;
+    padding: 1.5em;
+    box-sizing: border-box;
 }
 .header-pageNum{
     display: flex;
@@ -52,7 +61,7 @@ hr{
     color: #ffffff;
 }
 .red-badge{
-    background-color: #88232b;
+    background-color: var(--red-color);
     clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
     padding: 0.25em 1em 0.25em 0.25em;
 
@@ -60,7 +69,7 @@ hr{
 .black-badge{
     text-align: center;
     background-color: #000000;
-    padding: 1em;
+    padding: 0.5em;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -70,4 +79,43 @@ hr{
     position: relative;
     left: 15em;
     margin-bottom: 0.5em;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.col{
+    max-width: 33%;
+    width: 32%;
+}
+.bottom-imgs{
+    margin-top: -0.5em;
+}
+
+.bottom-sub-heading{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.red-caption{
+    font-size: 1.5em;
+    text-align: center;
+    color: var(--red-color);
+    font-weight: 500;
+}
+.bottom-badge-position{
+    position: relative;
+    bottom: 1em;
+    left: 14em;
+    margin-top: -4em;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h5{
+    margin-top: 0.25em;
+    margin-bottom: 1em
 }
