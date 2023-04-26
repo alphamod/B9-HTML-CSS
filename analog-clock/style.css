@@ -1,0 +1,114 @@
+body{
+    background-color: #a4a7a7;
+    font-family: 'Exo 2', sans-serif;
+}
+.container{
+    background-color: #ffffff;
+    max-width: 700px;
+    max-height: 700px;
+    width: 700px;
+    height: 700px;
+    margin-left: 25%;
+}
+
+.clock-frame{
+    box-sizing: border-box;
+    height: inherit;
+    width: inherit;
+    border: 15px solid #000000;
+    border-radius: 50%;
+    /* padding: 2em; */
+}
+.clock-frame span{
+    font-size: 5em;
+    font-weight: 700;
+    position: absolute;
+}
+.twelve{
+    top: 0.5em;
+    left: 8.5em;
+}
+.one{
+    top: 1em;
+    right: 7em;
+}
+.two{
+    top: 2.3em;
+    right: 5.7em;
+}
+.three{
+    top: 4em;
+    right: 5.3em;
+}
+.four{
+    top: 5.8em;
+    right: 6em;
+}
+.five{
+    top: 7em;
+    right: 7.2em;
+}
+.six{
+    left: 8.7em;
+    bottom: 0.5em
+}
+.seven{
+    left: 7em;
+    bottom: 1em
+}
+.eight{
+    top: 5.7em;
+    left: 5.7em; 
+
+}
+.nine{
+    top: 4em;
+    left: 5em;
+
+}
+.ten{
+    left: 5.7em;
+    top: 2.2em
+}
+.eleven{
+    left: 7em;
+    top: 1em
+}
+.circle{
+    position: relative;
+    clip-path: circle(50% at 50% 50%);
+    height: 4rem;
+    width: 4rem;
+    background-color: #3b3939;
+    top: 19.5em;
+    left: 19.5em;
+    z-index: 10;
+}
+.hand{
+    border-top: 10px solid;
+    position: relative;
+}
+.big{
+    height: 1em;
+    width: 4em;
+    transform: rotate(90deg);
+    top: 2.7em;
+    left: 6.55em; 
+}
+.short{
+    border-width: 15px;
+    width: 3em;
+    height: 1.2em;
+    transform: rotate(60deg);
+    top: 3.5em;
+    left: 6.6em; 
+}
+.seconds{
+    border-color: #ff0000;
+    border-width: 7px;
+    width: 4.5em;
+    height: 0.5rem;
+    top: 4.6em;
+    left: 5.2em;
+    
+}
