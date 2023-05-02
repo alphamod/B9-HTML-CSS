@@ -1,0 +1,12 @@
+.text-justify{
+    text-align: justify !important;
+}
+.main-title{
+    font-size: 8em;
+    letter-spacing: 2px;
+}
+.red-badge{
+    background-color: #8a1e24;
+    clip-path: polygon(0 0, 92% 0, 100% 100%, 0% 100%);
+    width: 18%;
+}
